@@ -1,0 +1,23 @@
+if SHIELD_SBOARD_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "sboard"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SBOARD_LEFT
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+endif
+
+if SHIELD_SBOARD_LEFT || SHIELD_SBOARD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

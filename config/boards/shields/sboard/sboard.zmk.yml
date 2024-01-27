@@ -1,0 +1,13 @@
+file_format: "1"
+id: sboard
+name: sboard
+type: shield
+url: https://github.com/sushanthr/sboard
+requires:
+  - pro_micro
+features:
+  - keys
+  - encoder
+siblings:
+  - sboard_left
+  - sboard_right
