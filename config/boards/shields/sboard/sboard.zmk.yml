@@ -2,7 +2,7 @@ file_format: "1"
 id: sboard
 name: sboard
 type: shield
-url: https://github.com/sushanthr/sboard
+url: https://github.com/sushanthr/sboard-legacy
 requires:
   - pro_micro
 features:
