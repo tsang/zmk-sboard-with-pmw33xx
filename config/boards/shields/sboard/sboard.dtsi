@@ -51,23 +51,12 @@
     sck-pin = <22>; // P0.22
     cs-gpios = <&gpio1 02 GPIO_ACTIVE_LOW>; // P1.02
 
-    //trackball: trackball@0 {
-    //    status = "disabled";
-    //    compatible = "pixart,pmw3360";
-    //    reg = <0>;
-    //    label = "Pixart PMW3360";
-    //    irq-gpios = <&gpio1 01 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-    //    spi-max-frequency = <2000000>;
-    //};
-
     trackball: trackball@0 {
         status = "disabled";
-        compatible = "pixart,pmw33xx";
+        compatible = "pixart,pmw3360";
         reg = <0>;
         label = "Pixart PMW3360";
-        cs-gpios = <&gpio1 2 GPIO_ACTIVE_LOW>;
-        motswk-gpios = <&gpio1 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        irq-gpios = <&gpio1 01 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         spi-max-frequency = <2000000>;
-        cpi = <400>;
     };
 };
