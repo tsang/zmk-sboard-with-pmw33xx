@@ -30,7 +30,7 @@
 &kp LCTRL   &kp LGUI   &kp LALT &kp DEL   &mo 1    &kp LEFT &kp LCTRL &mkp MCLK          &mkp LCLK   &mkp RCLK   &kp RIGHT &kp RCTRL &kp ENTER &kp SPACE &kp RALT &kp RGUI &kp RCTRL                                                 
             >;
 
-            sensor-bindings =  <&mw MW_UP(1) MW_DN(1)>;
+            sensor-bindings =  <&mw MW_UP(8) MW_DN(8)>;
             trackball-bindings = <&tmv>;
         };
 
@@ -43,7 +43,7 @@
 &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans                   &trans      &trans  &trans  &trans       &trans       &trans    &trans   &trans  &trans
             >;
 
-            sensor-bindings =  <&mw MW_UP(1) MW_DN(1)>;
+            sensor-bindings =  <&mw MW_UP(8) MW_DN(8)>;
             trackball-bindings = <&tmv>;
         };
 
@@ -56,7 +56,7 @@
 &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans                   &trans      &trans  &trans  &trans       &trans       &trans    &trans   &trans     &trans
             >;
 
-            sensor-bindings =  <&mw MW_UP(1) MW_DN(1)>;
+            sensor-bindings =  <&mw MW_UP(8) MW_DN(8)>;
             trackball-bindings = <&tmv>;
         };
 
