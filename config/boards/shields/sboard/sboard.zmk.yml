@@ -8,6 +8,7 @@ requires:
 features:
   - keys
   - encoder
+  - pointer
 siblings:
   - sboard_left
   - sboard_right
