@@ -38,7 +38,7 @@
             bindings = <
 &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans           &trans  &trans  &kp SLCK     &kp PSCRN    &trans    &trans   &trans  &trans  &trans
 &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans           &trans  &trans  &kp PG_UP    &kp HOME     &kp UP    &kp END  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans           &trans  &trans  &kp PG_DN    &kp LEFT     &kp DOWN  &trans   &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans           &trans  &trans  &kp PG_DN    &kp LEFT     &kp DOWN  &kp RIGHT &trans  &trans  &trans
 &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans           &trans  &trans  &kp LPAR     &kp RPAR     &kp LBKT  &kp RBKT &trans  &trans  &trans
 &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans                   &trans  &trans  &trans       &trans       &trans    &trans   &trans  &trans  &trans
             >;
