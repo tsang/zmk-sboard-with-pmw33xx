@@ -22,7 +22,7 @@ endif
 if SHIELD_SBOARD_LEFT || SHIELD_SBOARD_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "sboard"
+    default "sboard-legacy"
 
 config ZMK_SPLIT
     default y
