@@ -19,6 +19,13 @@
             RC(4,8) RC(4,7) RC(4,6) RC(4,5) RC(4,4) RC(4,3) RC(4,2)                                  RC(4,11) RC(4,12) RC(4,13) RC(4,14) RC(4,15) RC(4,16) RC(4,17)                                                          
         >;
     };
+
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+        label = "KSCAN";
+        diode-direction = "row2col";
+    };
+
     
     left_encoder: left_encoder {
         compatible = "alps,ec11";
