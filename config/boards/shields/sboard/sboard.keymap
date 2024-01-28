@@ -36,7 +36,7 @@
 &kp LCTRL   &kp LGUI   &kp LALT &kp DEL   &mo 1    &kp LEFT &kp LCTRL &mkp MCLK          &mkp LCLK   &mkp RCLK   &kp RIGHT &kp RCTRL &kp ENTER &kp SPACE &kp RALT &kp RGUI &kp RCTRL                                                 
             >;
 
-            sensor-bindings = <&inc_dec_kp SCROLL_UP  C_VOL_DN>;
+            sensor-bindings = <&inc_dec_mwh SCROLL_UP  SCROLL_DOWN>;
             trackball-bindings = <&tmv>;
         };
 
@@ -49,7 +49,7 @@
 &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans                   &trans      &trans  &trans  &trans       &trans       &trans    &trans   &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP  C_VOL_DN>;
+            sensor-bindings = <&inc_dec_mwh SCROLL_UP  SCROLL_DOWN>;
             trackball-bindings = <&tmv>;
         };
 
@@ -62,7 +62,7 @@
 &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans                   &trans      &trans  &trans  &trans       &trans       &trans    &trans   &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP  C_VOL_DN>;
+            sensor-bindings = <&inc_dec_mwh SCROLL_UP  SCROLL_DOWN>;
             trackball-bindings = <&tmv>;
         };
 
