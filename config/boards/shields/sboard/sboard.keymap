@@ -9,22 +9,7 @@
 #define YELLOW  2
 #define SETTING 3
 
-&mwh {
-    delay-ms = <0>;
-    acceleration-exponent = <1>;
-    time-to-max-speed-ms = <0>;
-};
-
 / {
-    behaviors {
-		inc_dec_mwh: behavior_sensor_rotate_mouse_wheel {
-			compatible = "zmk,behavior-sensor-rotate-var";
-			label = "ENC_MOUSE_WHEEL";
-            #sensor-binding-cells = <2>;
-         	bindings = <&mwh>, <&mwh>;
-		};
-	};
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -45,7 +30,7 @@
 &kp LCTRL   &kp LGUI   &kp LALT &kp DEL   &mo 1    &kp LEFT &kp LCTRL &mkp MCLK          &mkp LCLK   &mkp RCLK   &kp RIGHT &kp RCTRL &kp ENTER &kp SPACE &kp RALT &kp RGUI &kp RCTRL                                                 
             >;
 
-            sensor-bindings = <&inc_dec_mwh SCROLL_UP  SCROLL_DOWN>;
+            sensor-bindings =  <&mw MW_UP(1) MW_DN(1)>;
             trackball-bindings = <&tmv>;
         };
 
@@ -58,7 +43,7 @@
 &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans                   &trans      &trans  &trans  &trans       &trans       &trans    &trans   &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_mwh SCROLL_UP  SCROLL_DOWN>;
+            sensor-bindings =  <&mw MW_UP(1) MW_DN(1)>;
             trackball-bindings = <&tmv>;
         };
 
@@ -71,7 +56,7 @@
 &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans                   &trans      &trans  &trans  &trans       &trans       &trans    &trans   &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_mwh SCROLL_UP  SCROLL_DOWN>;
+            sensor-bindings =  <&mw MW_UP(1) MW_DN(1)>;
             trackball-bindings = <&tmv>;
         };
 
