@@ -6,9 +6,6 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default n
 
-config NICE_NANO_SHIELD_MASTER
-    default n
-
 endif
 
 if SHIELD_SBOARD_RIGHT
@@ -19,8 +16,6 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
-config NICE_NANO_SHIELD_MASTER
-    default y
 endif
 
 
