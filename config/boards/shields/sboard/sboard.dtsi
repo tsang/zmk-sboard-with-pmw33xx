@@ -41,6 +41,11 @@
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder>;
     };
+
+    trackballs {
+        compatible = "zmk,keymap-trackballs";
+        trackballs = <&trackball>;
+    };
 };
 
 &nice_nano_spi {
