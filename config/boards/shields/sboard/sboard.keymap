@@ -29,7 +29,7 @@
 &kp ESC     &kp GRAVE  &kp N1   &kp N2    &kp N3   &kp N4   &kp N5  &kp F1  &kp F4       &kp F7      &kp F10      &kp N6  &kp N7  &kp N8    &kp N9  &kp N0   &kp MINUS &kp BSPC
 &kp CAPS    &kp TAB    &kp Q    &kp W     &kp E    &kp R    &kp T   &kp F2  &kp F5       &kp F8      &kp F11     &kp Y   &kp U   &kp I     &kp O   &kp P    &kp LBKT  &kp RBKT
 &mo 1       &mo 2      &kp A    &kp S     &kp D    &kp F    &kp G   &kp F3  &kp F6       &kp F9      &kp F12     &kp H   &kp J   &kp K     &kp L   &kp SEMI &kp APOS  &kp ENTER
-&mo 3       &kp LSHFT  &kp Z    &kp X     &kp C    &kp V    &kp B   &bootloader &none    &none       &bootloader &kp N   &kp M   &kp COMMA &kp DOT &kp SLASH &kp RSHIFT &kp BSLH
+&mo 3       &kp LSHFT  &kp Z    &kp X     &kp C    &kp V    &kp B   &bootloader &none    &ext_power EP_TOG &bootloader &kp N   &kp M   &kp COMMA &kp DOT &kp SLASH &kp RSHIFT &kp BSLH
 &kp LCTRL   &kp LGUI   &kp LALT &kp DEL   &mo 1    &kp LEFT &kp LCTRL &mkp MCLK          &mkp LCLK   &mkp RCLK   &kp RIGHT &kp RCTRL &kp ENTER &kp SPACE &kp RALT &kp RGUI &kp RCTRL                                                 
             >;
 
@@ -39,7 +39,7 @@
 
         blue_layer {                
             bindings = <
-&trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans           &trans  &trans  &kp SLCK     &kp PSCRN    &trans    &trans   &trans  &ext_power EP_OFF  &ext_power EP_ON
+&trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans           &trans  &trans  &kp SLCK     &kp PSCRN    &trans    &trans   &trans  &trans  &trans
 &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans           &trans  &trans  &kp PG_UP    &kp HOME     &kp UP    &kp END  &trans  &trans  &trans
 &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans           &trans  &trans  &kp PG_DN    &kp LEFT     &kp DOWN  &kp RIGHT &trans  &trans  &trans
 &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans           &trans  &trans  &kp LPAR     &kp RPAR     &kp LBKT  &kp RBKT &trans  &trans  &trans
