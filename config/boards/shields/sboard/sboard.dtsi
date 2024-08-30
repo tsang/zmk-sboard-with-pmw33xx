@@ -53,9 +53,9 @@
     compatible = "nordic,nrf-spim";
     status = "disabled";
     
-    sck-pin = <&pro_micro 15>; // P0.22
-    miso-pin = <&pro_micro 14>; // P0.17
-    mosi-pin = <&pro_micro 16>; // P0.10
+    sck-pin = <22>; // P0.22
+    miso-pin = <17>; // P0.17
+    mosi-pin = <10>; // P0.10
 
     label = "Pixart PMW3360";
 
